@@ -1,0 +1,35 @@
+body {
+    font-family: montserrat;
+    line-height: 1.5;
+}
+
+#menu {
+    background: orange;
+}
+
+#menu ul {
+    background: orange;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+#menu li {
+    margin: 10px;
+}
+
+#menu li:hover {
+    color: orange;
+    background: #fff;
+    border: #000;
+    outline: none;
+}
+
+#menu ul i {
+    margin: 10px;
+}
